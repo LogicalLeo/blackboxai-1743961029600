@@ -1,6 +1,9 @@
 
-Built by https://www.blackbox.ai
-
+Built by Superusr.ai
+#Project Manager LogicalLeo
+#Designed by LogicalLeo
+#Copyright owned by LogicalLeo/Superusr.ai
+#Licensing Source "Free License"
 ---
 
 ```markdown
