@@ -1,0 +1,7 @@
+{
+    "BTC": {"price": 65000, "change": "+2.3%"},
+    "ETH": {"price": 3000, "change": "-1.1%"},
+    "LTC": {"price": 150, "change": "+0.5%"},
+    "XRP": {"price": 1.2, "change": "-0.2%"},
+    "ADA": {"price": 1.5, "change": "+1.0%"}
+}
