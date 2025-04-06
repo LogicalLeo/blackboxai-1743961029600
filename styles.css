@@ -1,0 +1,88 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation */
+nav {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=2232&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Features Grid */
+.features {
+    display: grid;
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.feature {
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+/* Tables */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #2d3748;
+}
+
+/* Forms */
+input, select {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+/* Buttons */
+button {
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav div {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .hero {
+        height: 40vh;
+    }
+}
