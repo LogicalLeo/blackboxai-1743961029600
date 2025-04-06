@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markets - Pionex Clone</title>
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white font-inter">
+    <nav class="flex justify-between items-center p-4 bg-gray-800">
+        <div class="text-xl font-bold">Pionex Clone</div>
+        <div>
+            <a href="index.html" class="px-4">Home</a>
+            <a href="trade.html" class="px-4">Trade</a>
+            <a href="wallet.html" class="px-4">Wallet</a>
+            <a href="auth.html" class="px-4">Login</a>
+            <a href="support.html" class="px-4">Support</a>
+        </div>
+    </nav>
+    <section class="market-data p-4">
+        <h1 class="text-2xl">Market Data</h1>
+        <table class="min-w-full bg-gray-800">
+            <thead>
+                <tr>
+                    <th class="py-2">Coin</th>
+                    <th class="py-2">Price</th>
+                    <th class="py-2">24h Change</th>
+                    <th class="py-2">Market Cap</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BTC</td>
+                    <td>$65,000</td>
+                    <td class="text-green-500">+2.3%</td>
+                    <td>$1.2T</td>
+                </tr>
+                <tr>
+                    <td>ETH</td>
+                    <td>$3,000</td>
+                    <td class="text-red-500">-1.1%</td>
+                    <td>$350B</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer class="bg-gray-800 p-4 text-center">
+        <p>&copy; 2023 Pionex Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
