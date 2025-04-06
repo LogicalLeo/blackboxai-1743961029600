@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication - Pionex Clone</title>
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white font-inter">
+    <nav class="flex justify-between items-center p-4 bg-gray-800">
+        <div class="text-xl font-bold">Pionex Clone</div>
+        <div>
+            <a href="index.html" class="px-4">Home</a>
+            <a href="markets.html" class="px-4">Markets</a>
+            <a href="trade.html" class="px-4">Trade</a>
+            <a href="wallet.html" class="px-4">Wallet</a>
+            <a href="support.html" class="px-4">Support</a>
+        </div>
+    </nav>
+    <section class="auth-section p-4">
+        <h1 class="text-2xl">Login</h1>
+        <form>
+            <label for="email" class="py-2">Email:</label>
+            <input type="email" id="email" class="mb-4" placeholder="Enter your email">
+            <label for="password" class="py-2">Password:</label>
+            <input type="password" id="password" class="mb-4" placeholder="Enter your password">
+            <button type="submit" class="bg-blue-600 p-2 rounded">Login</button>
+        </form>
+        <h2 class="text-xl">Don't have an account? <a href="signup.html" class="text-blue-400">Sign up</a></h2>
+    </section>
+    <footer class="bg-gray-800 p-4 text-center">
+        <p>&copy; 2023 Pionex Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
